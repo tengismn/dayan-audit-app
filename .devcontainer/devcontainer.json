@@ -1,0 +1,9 @@
+{
+  "name": "Laravel Filament Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8000],
+  "postCreateCommand": "composer install",
+  "remoteUser": "vscode"
+}
